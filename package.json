@@ -1,0 +1,19 @@
+{
+  "name": "nodejs_raw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "sleep": "^6.3.0",
+    "uuid": "^9.0.0"
+  }
+}
