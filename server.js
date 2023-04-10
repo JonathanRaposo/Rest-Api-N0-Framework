@@ -1,14 +1,15 @@
 require('dotenv').config()
-const { v4: uuidv4 } = require('uuid');
 const fs = require('fs');
 const path = require('path')
 const http = require('http');
 const logger = require('./utils/logger');
+const MyUUID = require('./utils/myuuid');
+const { generateId: myuuid } = new MyUUID
 
 
 //load products:
-// const products = JSON.parse(fs.readFileSync(__dirname + '/database/products.json', 'utf-8'));
-const products = require('./database/products.json');
+const products = JSON.parse(fs.readFileSync(__dirname + '/database/products.json', 'utf-8'));
+// const products = require('./database/products.json');
 
 
 const server = http.createServer((req, res) => {
@@ -132,7 +133,7 @@ const server = http.createServer((req, res) => {
                     return;
                 }
                 const newProduct = {
-                    id: uuidv4(),
+                    id: myuuid(),
                     image_Url: image_Url,
                     name: name,
                     description: description,
