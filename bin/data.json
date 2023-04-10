@@ -8,11 +8,10 @@
   
    "description" : "The HD VTX ushered in a new upgrade, and the brand new VTX of DJI O3 air unit pushed the digital      system to a new level.The GEPRC team is also upgrading and optimizing the overall performance on the basis of MARK5. At the same time, it will be equipped with DJI O3 air unit to design the new MARK5 O3 version, the versions are MK5D and MK5X respectively."
   ,
-  "price": "569.99"
+  "price": 569.99
   
     },
   
-
     {
         
         "id":"6476ccb2-23c9-4615-bc7d-d55ea061ec1b",
@@ -22,7 +21,7 @@
   
      "description" : "O3 Air Unit is currently the most advanced FPV system on the market. It can transmit 1080P 60fps real-time images, and can also record up to 4K 60fps images with anti-shake effect at the same time. This drone is be equipped with a powerful 1804 motor with optimized motor magnetic circuit and surging torque, which can easily cope with ultra-low altitude shooting",
   
-     "price": "554.99"
+     "price": 554.99
   
   
     },
@@ -56,7 +55,7 @@
         "image_Url": "https://cdn.shopify.com/s/files/1/1285/4651/products/download-2021-05-17T130443.973_1800x1800.jpg?v=1621271945",
      "name": "Cetus X FPV Kit",
      "description" : "Whether skillful pilots or new beginners, Cetus X FPV Kit, as the advanced 2S power whoop bundle, is a completely primary choice to reach a higher stage. From its unparalleled control to its exciting flying that has you immersed your experience through every FPV flight, there is simply nothing like Cetus X FPV Kit. With the combination of Cetus X Brushless Quadcopter, LiteRadio 3 Radio Transmitter, and VR03 FPV Goggles, get ready for the next level.",
-     "price": "309.99"
+     "price": 309.99
   
   
     }
