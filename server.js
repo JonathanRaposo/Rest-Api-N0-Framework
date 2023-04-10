@@ -9,7 +9,7 @@ const logger = require('./utils/logger');
 //load products:
 // const products = JSON.parse(fs.readFileSync(__dirname + '/database/products.json', 'utf-8'));
 const products = require('./database/products.json');
-const { emitWarning } = require('process');
+
 
 const server = http.createServer((req, res) => {
 
@@ -21,6 +21,8 @@ const server = http.createServer((req, res) => {
 
     if (req.url === '/api/products' && req.method === 'GET') {
 
+
+
         const productList = new Promise((resolve, reject) => {
             resolve(products);
         })
@@ -29,7 +31,10 @@ const server = http.createServer((req, res) => {
             .then((products) => {
                 console.log('list of products: ', products)
                 if (!products.length) {
-                    res.writeHead(200, { 'Content-Type': 'application/json' });
+                    res.writeHead(200, {
+                        'Content-Type': 'application/json',
+                        'Access-Control-Allow-Origin': '*',
+                    });
                     res.end(JSON.stringify(
                         {
                             success: true,
@@ -39,7 +44,12 @@ const server = http.createServer((req, res) => {
                     ));
                 }
                 else {
-                    res.writeHead(200, { 'Content-Type': 'application/json' });
+                    res.writeHead(200,
+                        {
+                            'Content-Type': 'application/json',
+                            'Access-Control-Allow-Origin': '*'
+
+                        });
                     res.end(JSON.stringify(products))
                 }
 
@@ -63,7 +73,11 @@ const server = http.createServer((req, res) => {
                 }
             }
             if (!found_product) {
-                res.writeHead(404, { 'Content-type': 'application/json' });
+                res.writeHead(404,
+                    {
+                        'Content-type': 'application/json',
+                        'Access-Control-Allow-Origin': '*'
+                    });
                 res.end(JSON.stringify({ message: 'Product not found.' }))
             }
             else {
@@ -75,7 +89,10 @@ const server = http.createServer((req, res) => {
 
         product
             .then((productFromDB) => {
-                res.writeHead(200, { 'Content-Type': 'application/json' });
+                res.writeHead(200, {
+                    'Content-Type': 'application/json',
+                    'Access-Control-Allow-Origin': '*'
+                });
                 res.end(JSON.stringify(productFromDB));
 
             })
@@ -107,7 +124,10 @@ const server = http.createServer((req, res) => {
 
 
                 if (!name || !description || !price) {
-                    res.writeHead(400, { 'Content-type': 'application/json' });
+                    res.writeHead(400, {
+                        'Content-type': 'application/json',
+                        'Access-Control-Allow-Origin': '*'
+                    });
                     res.end(JSON.stringify({ message: 'Please provide name, description and price.' }))
                     return;
                 }
@@ -130,7 +150,10 @@ const server = http.createServer((req, res) => {
         new_product
             .then((newProduct) => {
                 console.log('new product: ', newProduct)
-                res.writeHead(201, { 'Content-Type': 'application/json' });
+                res.writeHead(201, {
+                    'Content-Type': 'application/json',
+                    'Access-Control-Allow-Origin': '*'
+                });
                 res.end(JSON.stringify(newProduct));
             })
             .catch((err) => console.log('Error while creating product: ', err))
@@ -185,7 +208,10 @@ const server = http.createServer((req, res) => {
         product
             .then((updatedProduct) => {
                 console.log('Updated Product: ', updatedProduct);
-                res.writeHead(200, { 'Content-type': 'application/json' });
+                res.writeHead(200, {
+                    'Content-type': 'application/json',
+                    'Access-Control-Allow-Origin': '*'
+                });
                 res.end(JSON.stringify(updatedProduct));
             })
             .catch((err) => console.log('Error while updating product: ', err));
@@ -211,7 +237,10 @@ const server = http.createServer((req, res) => {
         })
         product
             .then(() => {
-                res.writeHead(200, { 'Content-type': 'application/json' });
+                res.writeHead(200, {
+                    'Content-type': 'application/json',
+                    'Access-Control-Allow-Origin': '*'
+                });
                 res.end(JSON.stringify({ message: `Product id# ${id}  removed.` }))
             })
     }
@@ -220,6 +249,7 @@ const server = http.createServer((req, res) => {
     else {
         res.statusCode = 404;
         res.setHeader('Content-Type', 'application/json');
+        res.setHeader('Access-Control-Allow-Origin', '*')
         res.end(JSON.stringify({ message: 'This route does not exist.' }))
     }
 
