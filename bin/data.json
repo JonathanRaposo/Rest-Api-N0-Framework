@@ -1,66 +1,41 @@
 [
 
+  {
+ "id":"5733-24809-11518-788281-5205404858",
+"image_Url": "https://geprc.com/wp-content/uploads/2022/12/MARK5-DC-3-800x800.jpg",
+ "name": "GEPRC MARK5 DC HD O3 FPV",
+ "description" : "The HD VTX ushered in a new upgrade, and the brand new VTX of DJI O3 air unit pushed the digital system to a new level.The GEPRC team is also upgrading and optimizing the overall performance on the basis of MARK5. At the same time, it will be equipped with DJI O3 air unit to design the new MARK5 O3 version, the versions are MK5D and MK5X respectively.The newly upgraded camera aluminum alloy side plate, 7075-T6 aluminum alloy is strong and durable. It can be fully adapted to DJI’s new O3 air unit camera, with a field of view (FOV) of 155°, and the recording specification can support up to 4K 60FPS. We also specially designed TPU fixing parts for the O3 VTX module, and equipped with air inlet cooling port, which is conducive to adequate heat dissipation at the air unit. MARK5 O3 uses GEPRC’s latest SPAN F722-BT-HD V2 stack, with ICM 42688P gyroscope for smooth flight, redundant performance and ports, and supports Bluetooth wireless connection for tuning. The SPAN BLHeli_32 50A ESC with GEPRC 2107.5 motor, and uses new Gemfan 5136 propellers, which has strong power. The DC structure has a wide and unobstructed viewing angle during flight, which is suitable for O3 internal video recording and direct output. MARK5 O3 is shipped with two different camera mounts, which can be mounted with a full range of GoPro action cameras, as well as Naked GoPro 8/10, Insta 360 GO2 and Caddx Peanut, etc. to record beautiful moments for your flight."
+, "price": 569.99 
+},
     {
-        "id":"5733-24809-11518-788281-5205404858",
-  "image_Url": "https://geprc.com/wp-content/uploads/2022/12/MARK5-DC-3-800x800.jpg",
-  
-   "name": "GEPRC MARK5 DC HD O3 FPV",
-  
-   "description" : "The HD VTX ushered in a new upgrade, and the brand new VTX of DJI O3 air unit pushed the digital      system to a new level.The GEPRC team is also upgrading and optimizing the overall performance on the basis of MARK5. At the same time, it will be equipped with DJI O3 air unit to design the new MARK5 O3 version, the versions are MK5D and MK5X respectively."
-  ,
-  "price": 569.99
-  
-  
-    },
-  
-  
-    {
-        
-        "id":"5954-94725-78648-009240-5879387808",
-  "image_Url": "https://geprc.com/wp-content/uploads/2022/11/GEPRC-Cinebot30-HD-O3-FPV-Drone-4.jpg",
-  
-     "name": "GEPRC Cinebot30 HD O3 FPV Drone",
-  
-     "description" : "O3 Air Unit is currently the most advanced FPV system on the market. It can transmit 1080P 60fps real-time images, and can also record up to 4K 60fps images with anti-shake effect at the same time. This drone is be equipped with a powerful 1804 motor with optimized motor magnetic circuit and surging torque, which can easily cope with ultra-low altitude shooting",
-  
-     "price": 554.99
-  
-  
-    },
-  
-    {
-       
-        "id":"8815-81374-09395-741267-0969457980",
-  "image_Url": "https://cdn.shopify.com/s/files/1/1349/4827/products/iFlight_Chimera_7_Pro_V2_6S_HD_DJI_O3_Air_Unit_2.jpg?v=1669144360",
-  
+   "id":"5954-94725-78648-009240-5879387808",
+   "image_Url": "https://geprc.com/wp-content/uploads/2022/11/GEPRC-Cinebot30-HD-O3-FPV-Drone-4.jpg",
+   "name": "GEPRC Cinebot30 HD O3 FPV Drone",
+   "description" : "Since DJI released a new generation of O3 AIR Unit FPV high-definition video transmission system, the GEPRC team has followed closely to make the latest set of O3 AIR Unit system, Cinebot30 HD O3 AIR Unit version. Cinebot 30 is a new generation of cinematic FPV drone developed by the GEPRC team. The aluminum parts of the camera are still made of high-strength 7075 aircraft-grade aluminum alloy materials. The TPU shock-absorbing pad is designed on the bracket structure, which can excellently isolate the high-frequency vibration of the fuselage, so that the camera can still obtain jelly-free high-definition images during high-speed flight The installation of the video transmission has also designed an assembly scheme, which allows the O3 video transmission to be completely installed inside the fuselage without affecting the Type-C USB data cable connected to the Air Unit to read video data. O3 Air Unit is currently the most advanced FPV system on the market. It can transmit 1080P 60fps real-time images, and can also record up to 4K 60fps images with anti-shake effect at the same time.Cinebot30 will be equipped with a powerful 1804 motor with optimized motor magnetic circuit and surging torque, which can easily cope with ultra-low altitude shooting. With HQ prop T76mm*3 propeller, it gets the lowest noise effect in its class. Using GEP-F722-45A AIO v2 flight controller, higher performance redundancy, and easy handling of unexpected situations.",
+    "price": 554.99
+   },
+
+  { 
+
+    "id":"8815-81374-09395-741267-0969457980",
+     "image_Url": "https://cdn.shopify.com/s/files/1/1349/4827/products/iFlight_Chimera_7_Pro_V2_6S_HD_DJI_O3_Air_Unit_2.jpg?v=1669144360",
      "name": "Chimera7 Pro V2 6S HD",
-  
-     "description": "The KING of Long Range FPV! Another breakthrough in FPV visuals from DJI with our upgraded frame and electronics. A super-efficient iFlight 7.5inch Long-Range bird that can go where you couldn't go before and can carry bigger batteries to get the flight time to surf the swiss alps if you want.A super stiff frame for minimum resonance and XING2 2809 motors for maximum 7.5inch prop control. Fly big batteries top-mounted, or even bigger batteries bottom-mounted, 6cells recommended or 5cells for slow cruising. But whatever style you fly, a Lipo or Lion pack will just do the job. Recommended 5S 3.000mAh above (slow cruising) or our new 6S 3300mAh battery.",
-  
-     "price": 739.99
-  
-  
-    },
-   
-    {
-        "id":"7636-43697-80764-291919-0952510511",
-        "image_Url": "https://cdn.shopify.com/s/files/1/1349/4827/products/Flywoo_Explorer_LR_4_HD_DJI_O3_Sub250_Micro_Long_Range_Drone_0.webp?v=1672792281",
-  
-     "name": "Explorer LR 4 HD DJI SUB250",
-     "description" : "The DJI O3 Air unit is an exceptional digital module that perfectly complements the Explorer LR 4. With its impressive 4K/60fps recording capabilities and long-range capabilities of up to 10KM (FCC), this unit is sure to impress even the most discerning aerial photographers and videographers.",
-     "price": 489.99
-  
-  
-    },
-  
-    {
-        "id":"0589-13662-87160-180175-3029633523",
-        "image_Url": "https://cdn.shopify.com/s/files/1/1285/4651/products/download-2021-05-17T130443.973_1800x1800.jpg?v=1621271945",
-     "name": "Cetus X FPV Kit",
-     "description" : "Whether skillful pilots or new beginners, Cetus X FPV Kit, as the advanced 2S power whoop bundle, is a completely primary choice to reach a higher stage. From its unparalleled control to its exciting flying that has you immersed your experience through every FPV flight, there is simply nothing like Cetus X FPV Kit. With the combination of Cetus X Brushless Quadcopter, LiteRadio 3 Radio Transmitter, and VR03 FPV Goggles, get ready for the next level.",
-     "price": 309.99
-  
-  
-    }
-  
-  ]
+     "description": "The KING of Long Range FPV! Another breakthrough in FPV visuals from DJI with our upgraded frame and electronics. A super-efficient iFlight 7.5inch Long-Range bird that can go where you couldn't go before and can carry bigger batteries to get the flight time to surf the swiss alps if you want.A super stiff frame for minimum resonance and XING2 2809 motors for maximum 7.5inch prop control. Fly big batteries top-mounted, or even bigger batteries bottom-mounted, 6cells recommended or 5cells for slow cruising. But whatever style you fly, a Lipo or Lion pack will just do the job. Recommended 5S 3.000mAh above (slow cruising) or our new 6S 3300mAh battery.The latest upgrade of our bestseller XING motors, no compromises taken! Durable unibell (one-piece bell) technology, strong titanium alloy shaft with reinforced bell joint, crash resistant 7075 aluminum bell, smooth and long-lasting Japanese NSK bearings, center slotted N52H curved arc magnets and our XING O-ring bushing gap protection.",
+     "price": 739.99 },
+ 
+  {
+      "id":"7636-43697-80764-291919-0952510511",
+    "image_Url": "https://i.ebayimg.com/images/g/Pz4AAOSwHiFkMfCx/s-l500.jpg",
+    "name": "Explorer LR 4 HD DJI SUB250",
+    "description" : "The DJI O3 Air unit is an exceptional digital module that perfectly complements the Explorer LR 4. With its impressive 4K/60fps recording capabilities and long-range capabilities of up to 10KM (FCC), this unit is sure to impress even the most discerning aerial photographers and videographers.To make things even better, we have designed the latest GOKU MINI GPS V3 for use with the Explorer O3, which now supports searching for up to 30 satellites. With this cutting-edge technology, the Explorer LR 4 has everything you need to capture stunning aerial footage with ease.The DJI O3 Air Unit integrates DJI's cutting-edge video transmission technology into a lightweight and compact body, the DJI O3 Air Unit features state-of-the-art DJI transmission technology enclosed in a lightweight, compact design. See for yourself that it's possible! The DJI O3 Air Unit will provide you with excellent image quality over long distances and is distinguished by ultra-low latency, thanks to which you will take your FPV experience to a whole new level. The device is a real breakthrough in imaging performance - it offers a 1/1.7-inch sensor, flagship video technology, 155° super-wide field of view, and more. It is also distinguished by its compatibility with a wide range of products. Get a reliable image transmission tool, unleash your creativity and enjoy even more sky-high travels.",
+"price": 489.99},
+
+  { "id":"0589-13662-87160-180175-3029633523",
+   "image_Url": "https://cdn.shopify.com/s/files/1/1285/4651/products/download-2021-05-17T130443.973_1800x1800.jpg?v=1621271945",
+   "name": "Cetus X FPV Kit",
+   "description": "Nothing quite beats the experience of flying Cetus X with an enhanced propulsion system, and longer radio and video transmission. With a very functional and potential remote controller and FPV goggles, pilots can unlock more accomplishments to the next level.Two FC versions are offered for pilots. With the support of the Betaflight configurator, beginners can learn quadcopter configuration through the Betaflight FC version. For pilots who prefer the classical Cetus, the Cetus FC version with an altitude hold function is also coming soon.Classical white design inherited from Cetus Series and made of PA12 material, the Cetus X frame has an excellent impact resistance in drop & impact and reduces the risk of damage, giving you more peace of mind.The 360° protection of the whoop frame ensures safe flights both indoors and outdoors. Meanwhile, the FPV camera supports 0°-40° adjustable degrees, which provides different views for pilots.LiteRadio 3 reserves a nano bay that supports the external TX module for the compatibility of more quadcopters. And the VR03 FPV goggles which are newly added a Micro SD card slot to save the video with DVR recording, support most Analog VTXs in the market.The quadcopter, radio transmitter, FPV goggles, and all of the accessories are packed in an EVA portable storage bag. It is convenient to carry outside and better to protect the equipment.",
+"price": 309.99
+
+}
+
+]
