@@ -3,6 +3,6 @@
 
 
 
-This project consists of a Node.js rest api with no backend framework. it's a simple application with basic crud functionalities. I made this app to show how we can use Node.js without express and also utilize the file system to write files. For example, in the app I created my own database instead of using external clients such as MongoDB or other SQL database clients. For the frontend, I used React for the UI.if you'd like, you could clone this repo and run it locally on your pc to see it work. 
+This project consists of a Node.js rest api with no backend framework. it's a simple application with basic crud functionalities. I made this app to show how we can use Node.js without express and also utilize the file system to write files. For example, in the app I created my own database instead of using external clients such as MongoDB or SQL databases. For the frontend, I used React for the UI.if you'd like, you could clone this repo and run it locally on your pc to see it work. 
 
 Frontend link: https://github.com/JonathanRaposo/Starship-frontend
