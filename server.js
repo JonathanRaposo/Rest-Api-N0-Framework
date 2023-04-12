@@ -17,7 +17,7 @@ const server = http.createServer((req, res) => {
 
     //  GET - Route to get all products:
     if (req.url === '/api/products' && req.method === 'GET') {
-        //  allow client to have access to resources:
+        //  allow client to have access to resource:
         const responseHeaders = {
             'Content-Type': 'application/json',
             'Access-Control-Allow-Origin': '*'
@@ -58,7 +58,7 @@ const server = http.createServer((req, res) => {
     //   GET - Route to get a specific product:
 
     else if (req.url.match(/\/api\/products\/([0-9]+)/) && req.method === 'GET') {
-        //  allow client to have access to resources:
+        //  allow client to have access to resource:
         const responseHeaders = {
             'Content-Type': 'application/json',
             'Access-Control-Allow-Origin': '*'
