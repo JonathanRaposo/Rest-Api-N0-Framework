@@ -36,7 +36,7 @@ const server = http.createServer((req, res) => {
         productList
             .then((products) => {
                 console.log('list of products: ', products)
-                // if database is empty, still show success:
+                // if the database is empty, show success in response:
                 if (products.length === 0) {
                     res.writeHead(200, responseHeaders);
                     res.end(JSON.stringify(
