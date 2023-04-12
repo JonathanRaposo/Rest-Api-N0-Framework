@@ -6,4 +6,4 @@ This project consists of a Node.js rest api with no backend framework. it's a si
 
 
 
-Frontend link: https://github.com/JonathanRaposo/Starship-frontend
+Frontend source code: https://github.com/JonathanRaposo/Starship-frontend
